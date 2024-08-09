@@ -140,7 +140,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
     
     - Install dependencies = N
 
-- [ ] Descompactar o arquivo `source.zip` e copiar o conteúdo para a pasta `functions` do projeto
+- [ ] Descompactar o arquivo [source.zip](https://github.com/SassPro/sharpspring-bi-integration/blob/main/source.7z) e copiar o conteúdo para a pasta `functions` do projeto
 
     - Sobrepor os arquivos existentes
 
