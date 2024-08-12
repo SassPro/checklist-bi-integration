@@ -176,7 +176,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
 
 A publicação das funções cria os endpoints usados pelo integrador que podem ser consultados [nesse link](https://console.cloud.google.com/functions/list).
 
-Nos detlhes de cada função pode ser consultado,m entre outras coisas, o gatilho para requisição da mesma.
+Nos detlhes de cada função pode ser consultado o gatilho (url completa) para requisição da mesma.
 
 
 ### Create Table
