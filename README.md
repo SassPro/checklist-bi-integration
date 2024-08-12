@@ -7,7 +7,9 @@
 <br />
 <br />
 
-# Criar o projeto no Firebase
+# SETUP
+
+## Criar o projeto no Firebase
 
 [Console do Firebase](https://console.firebase.google.com/)
 
@@ -19,7 +21,7 @@
 <br />
 <br />
 
-# Criar o banco de dados Firestore 
+## Criar o banco de dados Firestore 
 
     IMPORTANTE: 
 
@@ -28,7 +30,7 @@
 
 <br />
 
-## Cadastrar os schemas das entidades
+### Cadastrar os schemas das entidades
 
 - [ ] Incluir uma coleção (ex.: `schema`) para registrar as entidades e campos que serão manipulados na integração. O nome da coleção deverá ser indicado nas variáveis de ambiente das funções (`.env`)
 
@@ -111,7 +113,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
 <br />
 <br />
 
-# Tasks
+## Tasks
 
 - [ ] Ativar a API do [Cloud Tasks](https://console.cloud.google.com/cloudtasks)
 
@@ -129,7 +131,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
 <br />
 <br />
 
-# Big Query
+## Big Query
 
 - [ ] Ativar a API do [Big Query](https://console.cloud.google.com/bigquery)
 
@@ -237,7 +239,7 @@ Usado pelo gerenciador de filas para processar as requisições em  blocos
 <br />
 <br />
 
-# Views
+## Views
 
 Por conta do buffer de dados que limita a alteração de registros [ver documento](https://cloud.google.com/knowledge/kb/cannot-update-or-delete-over-bigquery-streaming-tables-000004334), os dados sempre são inseridos na tabela do Big Query com a coluna updated_at com o timestamp do momento da carga.
 
