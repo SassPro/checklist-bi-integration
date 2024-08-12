@@ -58,6 +58,10 @@
 
 <br >
 
+![Firestore Schema Example](./firestore_schema.png)
+
+<br >
+
 ####  * EXCEÇÃO
 
 A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este campo é convertido e desmenbrado pelo integrador. Assim, o documento `event` deve conter os campos conforme abaixo:
@@ -111,6 +115,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
 
 - [ ] O nome da fila e a região selecionada deverão ser indicadas nas variáveis de ambiente das funções (`.env`)
  
+ ![Create Task Example](./create_task.png)
 
 <br />
 <br />
@@ -140,7 +145,7 @@ A tabela de eventos (`event`) possui 1 campo string que guarda um JSON. Este cam
     
     - Install dependencies = N
 
-- [ ] Descompactar o arquivo [source.zip](https://github.com/SassPro/sharpspring-bi-integration/blob/main/source.7z) e copiar o conteúdo para a pasta `functions` do projeto
+- [ ] Descompactar o arquivo `source.zip` e copiar o conteúdo para a pasta `functions` do projeto
 
     - Sobrepor os arquivos existentes
 
@@ -172,7 +177,7 @@ POST <your_base_url>/createTable
 }
 ```
 
-* Efetuar uma requisição POST para cada entidade.
+* Efetuar uma requisição POST para cada entidade apenas 1 vez.
 
 <br />
 <br />
