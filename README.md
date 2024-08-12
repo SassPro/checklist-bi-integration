@@ -1,3 +1,12 @@
+# PRÉ REQUISITOS
+
+- [ ] Domínio de NodeJs 
+
+- [ ] Conhecimento em Firebase/GCP (desejável)
+
+<br />
+<br />
+
 # Criar o projeto no Firebase
 
 [Console do Firebase](https://console.firebase.google.com/)
