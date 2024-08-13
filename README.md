@@ -60,14 +60,6 @@
 2. Cada campo da entidade (`systemName`) deve ser 1 campo do documento com o tipo `string` e valor conforme o tipo do campo (`dataType`), sendo possível:
 
 
-        Os campos disponíveis devem ser obtidos na ferramenta da Sharpspring.
-
-        A API da Sharpspring possui métodos para retornar a relação de campos
-        com `systemName` e `dataType`
-
-    <br >
-
-
             |Tipo      | Observação         |
             |----------|--------------------|
             |INT64     | Inteiros           |
@@ -76,6 +68,12 @@
             |BOOLEAN   | Verdadeiro/Falso   |
             |STRING    | Todos os demais    |
 
+    <br >
+
+        Os campos disponíveis devem ser obtidos na ferramenta da Sharpspring.
+
+        A API da Sharpspring possui métodos para retornar a relação de campos
+        com `systemName` e `dataType`
 
 <br >
 
