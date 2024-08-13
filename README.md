@@ -57,16 +57,24 @@
 
 1. O código do documento deve ser o nome da entidade.
 
-2. Cada campo da entidade (`systemName`) deve ser 1 campo do documento com o tipo `string` e valor conforme o tipo do campo, sendo possível:
+2. Cada campo da entidade (`systemName`) deve ser 1 campo do documento com o tipo `string` e valor conforme o tipo do campo (`dataType`), sendo possível:
 
 
-    |Tipo      | Observação         |
-    |----------|--------------------|
-    |INT64     | Inteiros           |
-    |FLOAT64   | Decimais           |
-    |TIMESTAMP | Datas              |
-    |BOOLEAN   | Verdadeiro/Falso   |
-    |STRING    | Todos os demais    |
+        Os campos disponíveis devem ser obtidos na ferramenta da Sharpspring.
+
+        A API da Sharpspring possui métodos para retornar a relação de campos
+        com `systemName` e `dataType`
+
+    <br >
+
+
+            |Tipo      | Observação         |
+            |----------|--------------------|
+            |INT64     | Inteiros           |
+            |FLOAT64   | Decimais           |
+            |TIMESTAMP | Datas              |
+            |BOOLEAN   | Verdadeiro/Falso   |
+            |STRING    | Todos os demais    |
 
 
 <br >
