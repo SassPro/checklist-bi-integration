@@ -60,7 +60,7 @@
 2. Cada campo da entidade (`systemName`) deve ser 1 campo do documento com o tipo `string` e valor conforme o tipo do campo (`dataType`), sendo possível:
 
 
-            |Tipo      | Observação         |
+            |Indicar   | Para dataType      |
             |----------|--------------------|
             |INT64     | Inteiros           |
             |FLOAT64   | Decimais           |
